@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://';
+const baseURL = '/';
 
 const service = axios.create({
   baseURL,
@@ -35,4 +35,5 @@ service.interceptors.response.use(
     return Promise.reject(error);
   }
 );
+
 export default service;

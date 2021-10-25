@@ -18,6 +18,15 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => import('../views/About/index.vue'),
   },
+  {
+    path: '/demo',
+    name: 'Demo',
+    meta: {
+      title: 'Demo',
+      keepAlive: true,
+    },
+    component: () => import('../views/Demo/index.vue'),
+  },
 ];
 const router = createRouter({
   history: createWebHashHistory(),
