@@ -1,21 +1,25 @@
 import { createStore } from 'vuex';
 export default createStore({
   state: {
-    listData: { 1: 10 },
-    num: 10,
+    count: 10,
+    message: {
+      name: 'harry',
+      sex: 'male',
+    },
   },
   mutations: {
-    setData(state, value) {
-      state.listData = value;
+    setCount(state) {
+      state.count = state.count++;
     },
-    addNum(state) {
-      state.num = state.num + 10;
+    setMessage(state, payload) {
+      state.message = payload;
     },
   },
   actions: {
-    setData(context, value) {
-      context.commit('setData', value);
+    setMessage(context, value) {
+      context.commit('setMessage', value);
     },
   },
+  getters: {},
   modules: {},
 });
