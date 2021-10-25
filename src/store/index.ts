@@ -3,13 +3,13 @@ export default createStore({
   state: {
     count: 10,
     message: {
-      name: 'harry',
-      sex: 'male',
+      name: '',
+      age: '',
     },
   },
   mutations: {
     setCount(state) {
-      state.count = state.count++;
+      state.count++;
     },
     setMessage(state, payload) {
       state.message = payload;
@@ -20,6 +20,10 @@ export default createStore({
       context.commit('setMessage', value);
     },
   },
-  getters: {},
+  getters: {
+    getCount(state) {
+      return state.count;
+    },
+  },
   modules: {},
 });
