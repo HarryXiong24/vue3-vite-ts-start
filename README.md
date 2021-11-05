@@ -1,21 +1,47 @@
-# Vue 3 + Typescript + Vite
+<h1 align="center">Welcome to vue3-vite-ts-start 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/HarryXiong24/vue3-vite-ts-start" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/HarryXiong24/vue3-vite-ts-start/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> A Vue3 and Typescript quick start template that integrates Vuex, Vue-Router, Axios and Mockjs.
 
-## Recommended IDE Setup
+### 🏠 [Homepage](https://github.com/HarryXiong24/vue3-vite-ts-start)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Install
 
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
-
-## How to use
-
-``` bash
-yarn
-
-yarn dev
-
-yarn build
+```sh
+yarn install
 ```
+
+## Usage
+
+```sh
+yarn dev
+```
+
+## Author
+
+👤 **Harry Xiong**
+
+* Website: https://www.harryxiong24.com/
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/HarryXiong24/vue3-vite-ts-start/issues). You can also take a look at the [contributing guide](https://github.com/HarryXiong24/vue3-vite-ts-start/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+This project is [MIT](https://github.com/HarryXiong24/vue3-vite-ts-start/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
