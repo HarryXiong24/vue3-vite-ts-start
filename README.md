@@ -23,6 +23,8 @@ yarn install
 
 ```sh
 yarn dev
+yarn build
+yarn serve
 ```
 
 ## Author
